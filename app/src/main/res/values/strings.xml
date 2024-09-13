@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TayaMorinvilleAssignment2</string>
+    <string name="challenges_of_mobile_software_engineering">5 Challenges of Mobile Software Engineering
+            \n1. Device and OS Fragmentation
+            \n2. Unstable and Dynamic Environment
+            \n3. Rapid Changes
+            \n4. Tool Support
+            \n5. Low Tolerance</string>
+</resources>
