@@ -33,5 +33,12 @@ class MainActivity : AppCompatActivity() {
             val implicitIntent = Intent("android.intent.action.SECONDACTIVITY")
             startActivity(implicitIntent)
         }
+
+        // Image Activity Intent
+        val imageActivityButton = findViewById<Button>(R.id.viewImageBtn)
+        imageActivityButton.setOnClickListener{
+            val intent = Intent(this, ViewImageActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
