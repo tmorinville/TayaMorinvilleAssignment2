@@ -46,4 +46,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0-alpha03")
+    implementation("androidx.activity:activity:1.7.2")
+    implementation("androidx.fragment:fragment:1.6.1")
+
 }
