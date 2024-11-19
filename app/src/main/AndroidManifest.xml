@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <permission
-        android:name="MSE412"
+        android:name="com.example.tayamorinvilleassignment2.MSE412"
         android:protectionLevel="dangerous"/>
+
+    <uses-permission android:name="com.example.tayamorinvilleassignment2.MSE412"/>
 
     <application
         android:allowBackup="true"
@@ -19,12 +21,9 @@
         <activity
             android:name=".ViewImageActivity"
             android:exported="false" />
-        <!-- <activity -->
-        <!-- android:name=".SecondActivity" -->
-        <!-- android:exported="false" -->
-        <!-- /> -->
         <activity
             android:name=".SecondActivity"
+            android:permission="com.example.tayamorinvilleassignment2.MSE412"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SECONDACTIVITY" />
